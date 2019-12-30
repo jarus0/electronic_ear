@@ -1,0 +1,85 @@
+
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=144831
+
+https://www.codeproject.com/Questions/1263712/Ioerror-errno-13-permission-denied-while-writing-t
+
+https://www.geeksforgeeks.org/convert-text-speech-python/
+https://pypi.org/project/pyttsx3/
+https://towardsdatascience.com/easy-text-to-speech-with-python-bfb34250036e
+https://pythonbasics.org/text-to-speech/
+https://pythonprogramminglanguage.com/text-to-speech
+
+
+
+
+
+
+
+
+
+sudo service bluetooth status
+
+sudo service bluetooth stop
+sudo service bluetooth start
+
+bluetoothctl
+connect 48:08:00:24:20:21
+quit
+
+espeak "is sound transferming"
+python Desktop/jelectronic_ear.py
+
+
+
+disconnect 48:08:00:24:20:21
+remove 48:08:00:24:20:21
+power on
+agent on
+pairable on
+scan on
+
+
+pair 48:08:00:24:20:21
+connect 48:08:00:24:20:21
+trust 48:08:00:24:20:21
+
+disconnect <paste number here>
+remove 48:08:00:24:20:21
+
+paired-devices
+
+
+
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("jarus")
+engine.runAndWait()
+
+
+button pressed
+capture image
+send to server 
+get and decode image name
+delete
+say to bluethooth speaker
+
+back to start
+
+
+
+https://imagga.com/profile/dashboard
+surajsingh999898@gmail.com
+7405546683
+pip install pyttsx3
+sudo apt-get install espeak
+
+https://github.com/adafruit/Adafruit_Python_SSD1306
+
+ssh pi@raspberrypi.local
+password 3 times space
+
+
+https://learn.sparkfun.com/tutorials/raspberry-gpio/python-rpigpio-example
+https://picamera.readthedocs.io/en/release-1.10/recipes1.html
+https://www.w3schools.com/python/python_functions.asp
